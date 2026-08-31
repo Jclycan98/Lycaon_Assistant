@@ -1,0 +1,6 @@
+# .gitignore
+asisstant-env/
+__pycache__/
+*.pyc
+.env
+logs/

@@ -1,0 +1,15 @@
+# Reconocimiento de voz
+SpeechRecognition==3.14.3
+PyAudio==0.2.14
+
+# Síntesis de voz
+pyttsx3==2.99
+
+# IA y LangChain
+langchain==0.3.26
+langchain-ollama==0.3.5
+langchain-core==0.3.70
+
+# Utilidades
+python-dotenv==1.1.1
+pytz==2025.2
