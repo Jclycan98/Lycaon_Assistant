@@ -31,8 +31,8 @@ class AIAgent:
             - Para la hora, usa SIEMPRE el resultado de la herramienta get_time
             - Sé breve y directo
             """),
-            ("human", "{{input}}"),
-            ("placeholder", "{{agent_scratchpad}}"),
+            ("human", "{input}"),
+            ("placeholder", "{agent_scratchpad}"),
 ])
         
         # Crear el agente 
@@ -48,7 +48,7 @@ class AIAgent:
             tools=self.tools,
             verbose=False,  # Reducir logs para limpiar output
             handle_parsing_errors=True,
-            max_iterations=3,  # Limitar iteraciones
+            max_iterations=3,  
             early_stopping_method="generate"
         )
 
